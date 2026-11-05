@@ -1,0 +1,4 @@
+// Safe defaults for the Personal target. Keep your own account overrides local.
+DEVELOPMENT_TEAM =
+PRODUCT_BUNDLE_IDENTIFIER = com.example.focussi.personal
+#include? "Signing.local.xcconfig"

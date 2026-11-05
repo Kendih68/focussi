@@ -1,0 +1,5 @@
+// Copy to Signing.local.xcconfig (ignored by Git), then replace these values.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+PRODUCT_BUNDLE_IDENTIFIER = com.yourname.focussi.personal
+// For the full Screen Time build, set its app/extension identifiers and team
+// in Xcode Signing & Capabilities as described in docs/INSTALL_IPHONE.md.

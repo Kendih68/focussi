@@ -1,0 +1,20 @@
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Local signing, credentials, packages, and archives
+Config/Signing.local.xcconfig
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.ipa
+*.xcarchive/
+.env
+.env.*
+!.env.example
+# Local work notes are not part of the beta source distribution
+tasks/

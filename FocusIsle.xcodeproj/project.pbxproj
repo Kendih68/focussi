@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"archiveVersion" = "1";
+	"objects" = {
+		"53FD3125D878557483E0C3A2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0BA640E5E673DE7233A98999";
+		};
+		"04200CFFD12D083534B07BB1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F51883FB6492CB49A3D4BEAD";
+		};
+		"89E1FD6268CC0F221A2BE178" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"ONLY_ACTIVE_ARCH" = "YES";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+				"MARKETING_VERSION" = "1.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+			};
+			"name" = "Debug";
+		};
+		"E6DE6C99132752C914FEF632" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"MARKETING_VERSION" = "1.0";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"SWIFT_STRICT_CONCURRENCY" = "targeted";
+			};
+			"name" = "Release";
+		};
+		"DE58E2B17C19600779694943" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "8E6C09ABE01B7B9B5D311542";
+			"targetProxy" = "D799BAE6088A90139B415FCC";
+		};
+		"2D764CD838DB39F040AA7EC4" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("13D5349904F4CC94713BAFD5", "B806D0DD458290E8AFDC6DF4", "2F5E75EEC38B0C4B2C6553A4", "E670DC67EB686AC5B7250306", "92F2481F0F54FF70CC164B73", "ED0C1448AA53154D8B932EA4", "8F0CE9AC193DB01CF997B4AE", "02EBAA080870FAB28803CAE1", "CCD4B26469BB42995C788910", "39F426C16150C1A5FF8859D5");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"862894B703A6DEDF96A9DD6C" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = ("89E1FD6268CC0F221A2BE178", "E6DE6C99132752C914FEF632");
+		};
+		"39F426C16150C1A5FF8859D5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E1D6ABF4558A244F7E2F47A3";
+		};
+		"13D5349904F4CC94713BAFD5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DF252C13B062B898CE62A866";
+		};
+		"E987CC258F2C091FF7296A29" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = ("6425018CF44F634169AD3760", "B9E3B756B2BC947A7418563C");
+		};
+		"026C82248B3D1CB091F86147" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("AE6FD2CA530AA139840D4F5B", "92E7ACA4FBD8E7BBEFCB6FBB", "326CC201C4950B20F6D171FC", "B033FECECF73F3320E73ACF3", "53FD3125D878557483E0C3A2", "91BBFCEEBAB8643CF4134B0E", "AD6C512334DCC5DED748398D", "2E148830A1AF72F32E3F1BB5", "856CC38360F1559B84CA898A");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"E1C47066C4A7C09AA986F8F6" = {
+			"path" = "FocusIsleMonitor/Info.plist";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"E1D6ABF4558A244F7E2F47A3" = {
+			"path" = "Shared/ScreenTimeConfiguration.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"322CC1236FEED4A07F6670DC" = {
+			"path" = "focussi.app";
+			"isa" = "PBXFileReference";
+			"includeInIndex" = "0";
+			"explicitFileType" = "wrapper.application";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"B033FECECF73F3320E73ACF3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AF5170CC9337450886D44A56";
+		};
+		"B28B7AF69320201D1CF206EB" = {
+			"isa" = "PBXGroup";
+			"sourceTree" = "<group>";
+			"children" = ("49FD95CD032EF842D70FF423", "952D2BB1A5B9DB6F16A62D7C", "5CD1A383A7404637B55B9754", "FBDC4F23F93125BBEEAE800C", "883CDBF2F01F3477E594DD88");
+		};
+		"8E6C09ABE01B7B9B5D311542" = {
+			"productType" = "com.apple.product-type.app-extension";
+			"productReference" = "7D47DE7E0202D59799F715BD";
+			"buildConfigurationList" = "FF739887B9CD76A258B0B3D0";
+			"packageProductDependencies" = ();
+			"productName" = "FocusIsleMonitor";
+			"isa" = "PBXNativeTarget";
+			"buildPhases" = ("18F92ED05B4C1EDBD2016BBC", "EC12BB4ADC1EB5A41FF93E0C", "9604239FF042080C4906DB54");
+			"dependencies" = ();
+			"name" = "FocusIsleMonitor";
+			"buildRules" = ();
+		};
+		"12384B5908BE5FE5B3301CEE" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("1C25D3719CB905525B1D275B");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"02EBAA080870FAB28803CAE1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "12DFD4FFA4173759B599FF81";
+		};
+		"C22CB5F34E229D0B4225F66A" = {
+			"path" = "FocusIsle/FocusIsleApp.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"9604239FF042080C4906DB54" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"C13732C8E715C9BEE4FA51C9" = {
+			"productType" = "com.apple.product-type.application";
+			"productReference" = "8BCD5BC4CDFDF0918087C782";
+			"buildConfigurationList" = "F37922C48DA5978D02C9E50E";
+			"packageProductDependencies" = ("94A0426E8D3203DA5468CCF0");
+			"productName" = "FocusIsle";
+			"isa" = "PBXNativeTarget";
+			"buildPhases" = ("2D764CD838DB39F040AA7EC4", "12384B5908BE5FE5B3301CEE", "06F5DC629BD46AAFD46564D1", "CFFF27C96089B93150F3553B");
+			"dependencies" = ("DE58E2B17C19600779694943");
+			"name" = "FocusIsle";
+			"buildRules" = ();
+		};
+		"2E148830A1AF72F32E3F1BB5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "12DFD4FFA4173759B599FF81";
+		};
+		"49FD95CD032EF842D70FF423" = {
+			"isa" = "PBXGroup";
+			"name" = "App";
+			"children" = ("DF252C13B062B898CE62A866", "C22CB5F34E229D0B4225F66A", "9D91EE8B82CEE573DECE3E02", "AF5170CC9337450886D44A56", "0BA640E5E673DE7233A98999", "880BC38F0B1928A8390DFD98", "14A8C9B5988232BA252FB9CC", "12DFD4FFA4173759B599FF81", "B61D8877C441BF1BEC4CE333", "0B9CD484AE3F42615458083F", "F51883FB6492CB49A3D4BEAD");
+			"sourceTree" = "<group>";
+		};
+		"6425018CF44F634169AD3760" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+				"INFOPLIST_KEY_ITSAppUsesNonExemptEncryption" = "NO";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations" = "UIInterfaceOrientationPortrait";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "focussi";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"PRODUCT_NAME" = "focussi";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+			};
+			"name" = "Debug";
+			"baseConfigurationReference" = "883CDBF2F01F3477E594DD88";
+		};
+		"3BCC0EC8D9CF9B536A9086D8" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("74B80B95CD0A10A104628577");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"FF739887B9CD76A258B0B3D0" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = ("21B12CA184ED22B33BAD04F1", "D1883375A16458E5753D3696");
+		};
+		"21B12CA184ED22B33BAD04F1" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+				"CODE_SIGN_ENTITLEMENTS" = "FocusIsleMonitor/FocusIsleMonitor.entitlements";
+				"INFOPLIST_FILE" = "FocusIsleMonitor/Info.plist";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.focusisle.app.monitor";
+				"SKIP_INSTALL" = "YES";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+			};
+			"name" = "Debug";
+		};
+		"AF5170CC9337450886D44A56" = {
+			"path" = "FocusIsle/FocusView.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"5A8C91857F674E16E2724F47" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "SCREEN_TIME_ENABLED";
+				"INFOPLIST_KEY_ITSAppUsesNonExemptEncryption" = "NO";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations" = "UIInterfaceOrientationPortrait";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "focussi";
+				"CODE_SIGN_ENTITLEMENTS" = "FocusIsle/FocusIsle.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.focusisle.app";
+			};
+			"name" = "Release";
+		};
+		"CCD4B26469BB42995C788910" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B61D8877C441BF1BEC4CE333";
+		};
+		"E670DC67EB686AC5B7250306" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AF5170CC9337450886D44A56";
+		};
+		"B9E3B756B2BC947A7418563C" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "";
+				"INFOPLIST_KEY_ITSAppUsesNonExemptEncryption" = "NO";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations" = "UIInterfaceOrientationPortrait";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "focussi";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"PRODUCT_NAME" = "focussi";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+			};
+			"name" = "Release";
+			"baseConfigurationReference" = "883CDBF2F01F3477E594DD88";
+		};
+		"8BCD5BC4CDFDF0918087C782" = {
+			"path" = "FocusIsle.app";
+			"isa" = "PBXFileReference";
+			"includeInIndex" = "0";
+			"explicitFileType" = "wrapper.application";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"06F5DC629BD46AAFD46564D1" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("04200CFFD12D083534B07BB1");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"94A0426E8D3203DA5468CCF0" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"package" = "582681C2EAE02B3F3D399C0C";
+			"productName" = "FocusCore";
+		};
+		"FBDC4F23F93125BBEEAE800C" = {
+			"isa" = "PBXGroup";
+			"name" = "Products";
+			"children" = ("8BCD5BC4CDFDF0918087C782", "7D47DE7E0202D59799F715BD", "322CC1236FEED4A07F6670DC");
+			"sourceTree" = "<group>";
+		};
+		"B3CE2DFCADCBF56F51710E6A" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"package" = "582681C2EAE02B3F3D399C0C";
+			"productName" = "FocusCore";
+		};
+		"40AF2996EFB5DC352F13F586" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F51883FB6492CB49A3D4BEAD";
+		};
+		"582681C2EAE02B3F3D399C0C" = {
+			"isa" = "XCLocalSwiftPackageReference";
+			"relativePath" = ".";
+		};
+		"7D47DE7E0202D59799F715BD" = {
+			"path" = "FocusIsleMonitor.appex";
+			"isa" = "PBXFileReference";
+			"includeInIndex" = "0";
+			"explicitFileType" = "wrapper.app-extension";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"18F92ED05B4C1EDBD2016BBC" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("ED0C548E1BA361B28A64F19E", "60D2E93BD4C29508A9B866C0");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"0BA640E5E673DE7233A98999" = {
+			"path" = "FocusIsle/IslandScene.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"ED0C548E1BA361B28A64F19E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4F548342D3F10549D79FFCA9";
+		};
+		"9D91EE8B82CEE573DECE3E02" = {
+			"path" = "FocusIsle/FocusServices.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"CFFF27C96089B93150F3553B" = {
+			"buildActionMask" = "2147483647";
+			"dstSubfolderSpec" = "13";
+			"isa" = "PBXCopyFilesBuildPhase";
+			"runOnlyForDeploymentPostprocessing" = "0";
+			"dstPath" = "";
+			"name" = "Embed App Extensions";
+			"files" = ("53E5AD58597AD3A37BD24E0B");
+		};
+		"D799BAE6088A90139B415FCC" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"remoteGlobalIDString" = "8E6C09ABE01B7B9B5D311542";
+			"remoteInfo" = "FocusIsleMonitor";
+			"proxyType" = "1";
+		};
+		"6C51DDC44103933D685A9934" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E1D6ABF4558A244F7E2F47A3";
+		};
+		"DF252C13B062B898CE62A866" = {
+			"path" = "FocusIsle/AppModel.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"91BBFCEEBAB8643CF4134B0E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "880BC38F0B1928A8390DFD98";
+		};
+		"B61D8877C441BF1BEC4CE333" = {
+			"path" = "FocusIsle/Theme.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"53E5AD58597AD3A37BD24E0B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "7D47DE7E0202D59799F715BD";
+			"settings" = {
+				"ATTRIBUTES" = ("RemoveHeadersOnCopy");
+			};
+		};
+		"952D2BB1A5B9DB6F16A62D7C" = {
+			"isa" = "PBXGroup";
+			"name" = "Monitor";
+			"children" = ("4F548342D3F10549D79FFCA9", "E1C47066C4A7C09AA986F8F6", "F5F03A60D15545CA121C206B");
+			"sourceTree" = "<group>";
+		};
+		"92F2481F0F54FF70CC164B73" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "0BA640E5E673DE7233A98999";
+		};
+		"4F548342D3F10549D79FFCA9" = {
+			"path" = "FocusIsleMonitor/FocusMonitor.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"0B9CD484AE3F42615458083F" = {
+			"path" = "FocusIsle/FocusIsle.entitlements";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.entitlements";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"1C25D3719CB905525B1D275B" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "94A0426E8D3203DA5468CCF0";
+		};
+		"2F5E75EEC38B0C4B2C6553A4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9D91EE8B82CEE573DECE3E02";
+		};
+		"5CD1A383A7404637B55B9754" = {
+			"isa" = "PBXGroup";
+			"name" = "Shared";
+			"children" = ("E1D6ABF4558A244F7E2F47A3");
+			"sourceTree" = "<group>";
+		};
+		"F5F03A60D15545CA121C206B" = {
+			"path" = "FocusIsleMonitor/FocusIsleMonitor.entitlements";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.entitlements";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"12DFD4FFA4173759B599FF81" = {
+			"path" = "FocusIsle/SettingsView.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"B806D0DD458290E8AFDC6DF4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C22CB5F34E229D0B4225F66A";
+		};
+		"F51883FB6492CB49A3D4BEAD" = {
+			"path" = "FocusIsle/Assets.xcassets";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"E9B2E96ABC5F6856F2BE79CF" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG SCREEN_TIME_ENABLED";
+				"INFOPLIST_KEY_ITSAppUsesNonExemptEncryption" = "NO";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations" = "UIInterfaceOrientationPortrait";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "focussi";
+				"CODE_SIGN_ENTITLEMENTS" = "FocusIsle/FocusIsle.entitlements";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.focusisle.app";
+			};
+			"name" = "Debug";
+		};
+		"14A8C9B5988232BA252FB9CC" = {
+			"path" = "FocusIsle/ProgressViewScreen.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"EC12BB4ADC1EB5A41FF93E0C" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"buildConfigurationList" = "862894B703A6DEDF96A9DD6C";
+			"packageReferences" = ("582681C2EAE02B3F3D399C0C");
+			"targets" = ("C13732C8E715C9BEE4FA51C9", "8E6C09ABE01B7B9B5D311542", "994B52B18B88A188A14570CB");
+			"developmentRegion" = "en";
+			"knownRegions" = ("en", "Base");
+			"isa" = "PBXProject";
+			"compatibilityVersion" = "Xcode 14.0";
+			"productRefGroup" = "FBDC4F23F93125BBEEAE800C";
+			"projectDirPath" = "";
+			"attributes" = {
+				"LastSwiftUpdateCheck" = "1600";
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "1600";
+				"TargetAttributes" = {
+					"8E6C09ABE01B7B9B5D311542" = {
+						"CreatedOnToolsVersion" = "16.0";
+					};
+					"C13732C8E715C9BEE4FA51C9" = {
+						"SystemCapabilities" = {
+							"com.apple.FamilyControls" = {
+								"enabled" = "1";
+							};
+							"com.apple.ApplicationGroups.iOS" = {
+								"enabled" = "1";
+							};
+						};
+						"CreatedOnToolsVersion" = "16.0";
+					};
+					"994B52B18B88A188A14570CB" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+				};
+			};
+			"hasScannedForEncodings" = "0";
+			"projectRoot" = "";
+			"mainGroup" = "B28B7AF69320201D1CF206EB";
+		};
+		"60D2E93BD4C29508A9B866C0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E1D6ABF4558A244F7E2F47A3";
+		};
+		"8F0CE9AC193DB01CF997B4AE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "14A8C9B5988232BA252FB9CC";
+		};
+		"880BC38F0B1928A8390DFD98" = {
+			"path" = "FocusIsle/IslandView.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"92E7ACA4FBD8E7BBEFCB6FBB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C22CB5F34E229D0B4225F66A";
+		};
+		"AD6C512334DCC5DED748398D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "14A8C9B5988232BA252FB9CC";
+		};
+		"856CC38360F1559B84CA898A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B61D8877C441BF1BEC4CE333";
+		};
+		"F37922C48DA5978D02C9E50E" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = ("E9B2E96ABC5F6856F2BE79CF", "5A8C91857F674E16E2724F47");
+		};
+		"40EC00598D04C7A6EC6EF118" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ("40AF2996EFB5DC352F13F586");
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"994B52B18B88A188A14570CB" = {
+			"productType" = "com.apple.product-type.application";
+			"productReference" = "322CC1236FEED4A07F6670DC";
+			"buildConfigurationList" = "E987CC258F2C091FF7296A29";
+			"packageProductDependencies" = ("B3CE2DFCADCBF56F51710E6A");
+			"productName" = "focussi";
+			"isa" = "PBXNativeTarget";
+			"buildPhases" = ("026C82248B3D1CB091F86147", "3BCC0EC8D9CF9B536A9086D8", "40EC00598D04C7A6EC6EF118");
+			"dependencies" = ();
+			"name" = "FocussiPersonal";
+			"buildRules" = ();
+		};
+		"ED0C1448AA53154D8B932EA4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "880BC38F0B1928A8390DFD98";
+		};
+		"AE6FD2CA530AA139840D4F5B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DF252C13B062B898CE62A866";
+		};
+		"326CC201C4950B20F6D171FC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9D91EE8B82CEE573DECE3E02";
+		};
+		"D1883375A16458E5753D3696" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "FocusIsleMonitor/FocusIsleMonitor.entitlements";
+				"INFOPLIST_FILE" = "FocusIsleMonitor/Info.plist";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.focusisle.app.monitor";
+				"SKIP_INSTALL" = "YES";
+				"APPLICATION_EXTENSION_API_ONLY" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+			};
+			"name" = "Release";
+		};
+		"74B80B95CD0A10A104628577" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "B3CE2DFCADCBF56F51710E6A";
+		};
+		"883CDBF2F01F3477E594DD88" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xcconfig";
+			"path" = "Config/Signing.xcconfig";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+	};
+	"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}
