@@ -1,6 +1,6 @@
 # focussi app icon
 
-Created using the built-in ImageGen tool. Original generation saved as `focussi-icon-source.png`; the installed 1024×1024 app icon is in `FocusIsle/Assets.xcassets/AppIcon.appiconset/AppIcon.png`.
+Created using the built-in ImageGen tool. Original generation saved as `focussi-icon-source.png`; the installed 1024×1024 app icon is in `focussi/Assets.xcassets/AppIcon.appiconset/AppIcon.png`.
 
 ## Final prompt
 

@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct FocusIsleApp: App {
+struct FocussiApp: App {
     @StateObject private var model = AppModel()
     var body: some Scene {
         WindowGroup {

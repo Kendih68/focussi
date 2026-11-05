@@ -8,7 +8,7 @@ The full focussi build uses the native Family Controls picker, Managed Settings 
 2. Replace the example bundle identifiers with identifiers registered to that team.
 3. Enable Family Controls for both app and monitor targets.
 4. Register an App Group. Replace `group.com.focusisle.app` in both entitlements and `Shared/ScreenTimeConfiguration.swift` with that exact group identifier.
-5. Keep `ScreenTimeConfiguration.swift` in both targets. Embed `FocusIsleMonitor.appex` in the app.
+5. Keep `ScreenTimeConfiguration.swift` in both targets. Embed `focussiMonitor.appex` in the app.
 6. Run on a physical iPhone. Grant Screen Time access from Settings inside focussi, and choose apps with Apple's picker.
 7. Request Family Controls distribution approval for both identifiers before TestFlight/App Store distribution.
 

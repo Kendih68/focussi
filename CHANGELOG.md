@@ -1,5 +1,11 @@
 # Changelog
 
+## Beta 1.0 repository cleanup
+
+- Renamed the Xcode project, full scheme, source folders, and monitor to focussi.
+- Removed obsolete screenshots and refreshed the focus screenshot with current pixel artwork and focussi branding.
+
+
 ## Beta 1.0 — v1.0.0-beta.1
 
 Initial source-only beta for iPhone running iOS 17 or newer.
@@ -9,7 +15,7 @@ Initial source-only beta for iPhone running iOS 17 or newer.
 - Native focus, short-break, and long-break timers with manual starts, early-ending confirmation, saved deadlines, and local session-end notifications.
 - Pixel-art island, six permanent decoration purchases, six collectible creatures, and streak keepsakes.
 - Predictable materials and hatching rewards, daily and longest streaks, calendar, and recent focus history.
-- Free **focussi Personal** build without app blocking, alongside the full **FocusIsle** Screen Time build.
+- Free **focussi Personal** build without app blocking, alongside the full **focussi** Screen Time build.
 - Debug-only test island with separate saved progress and instant reward controls.
 - Dependency-free core regression checks: 13 in Debug and 12 in Release.
 - Installation instructions, local signing configuration example, and [beta release notes](docs/releases/beta-1.0.md).

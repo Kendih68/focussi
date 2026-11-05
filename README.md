@@ -9,7 +9,7 @@ A native iPhone focus timer that turns completed sessions into a pixel-art islan
 | Scheme | Signing | App blocking |
 | --- | --- | --- |
 | **focussi Personal** | Free Apple Personal Team | Not included |
-| **FocusIsle** | Apple Developer Program team and Screen Time capabilities | Family Controls, Managed Settings, and a Device Activity Monitor extension |
+| **focussi** | Apple Developer Program team and Screen Time capabilities | Family Controls, Managed Settings, and a Device Activity Monitor extension |
 
 Both builds include the timer, island, collection, streaks, progress history, and local notifications. Personal provisioning expires after seven days; rebuild and reinstall with the same bundle identifier to renew it. The full build requires additional setup and physical-device verification; see [Screen Time setup](docs/SCREEN_TIME.md).
 
@@ -17,13 +17,13 @@ Both builds include the timer, island, collection, streaks, progress history, an
 
 ## Run
 
-Open `FocusIsle.xcodeproj` in Xcode 16 or newer. Choose a scheme and simulator, then press **⌘R**. The local `FocusCore` package resolves from the repository. For a physical phone, follow the [installation guide](docs/INSTALL_IPHONE.md) to configure your own signing settings.
+Open `focussi.xcodeproj` in Xcode 16 or newer. Choose a scheme and simulator, then press **⌘R**. The local `FocusCore` package resolves from the repository. For a physical phone, follow the [installation guide](docs/INSTALL_IPHONE.md) to configure your own signing settings.
 
 ```sh
-xcodebuild -project FocusIsle.xcodeproj -scheme 'focussi Personal' -configuration Debug -destination 'generic/platform=iOS Simulator' build
+xcodebuild -project focussi.xcodeproj -scheme 'focussi Personal' -configuration Debug -destination 'generic/platform=iOS Simulator' build
 ```
 
-For the full simulator build, use `-scheme FocusIsle`. Simulator builds do not validate app blocking.
+For the full simulator build, use `-scheme focussi`. Simulator builds do not validate app blocking.
 
 ## What is included
 
@@ -39,7 +39,7 @@ One completed focus session qualifies a local day. Streak milestones at **3, 7, 
 
 ![The focussi focus screen](docs/screenshots/focus-pixel.png)
 
-[Compact layout](docs/screenshots/focus-compact-pixel.png) · [Island](docs/screenshots/island-pixel.png) · [Collection](docs/screenshots/collection-pixel.png)
+[Island](docs/screenshots/island-pixel.png) · [Collection](docs/screenshots/collection-pixel.png)
 
 ## Try the island instantly
 
@@ -60,8 +60,8 @@ Beta limits: island placement is fixed, storage is local only, and full Screen T
 
 ## Project and artwork
 
-- `FocusIsle/`: SwiftUI app, pixel-art sprites, theme, and services.
+- `focussi/`: SwiftUI app, pixel-art sprites, theme, and services.
 - `Sources/FocusCore/` and `Tests/FocusCoreTests/`: timer, rewards, persistence, and regression checks.
-- `FocusIsleMonitor/` and `Shared/`: full-build background blocking support.
+- `focussiMonitor/` and `Shared/`: full-build background blocking support.
 
-The app is named **focussi**; the existing Xcode project and full scheme retain the **FocusIsle** name. In-app pixel artwork is drawn locally with SwiftUI Canvas. [App icon source](docs/branding/focussi-icon-source.png) · [ImageGen artwork prompt](docs/branding/focussi-icon-prompt.md).
+The app, Xcode project, and full scheme are named **focussi**. In-app pixel artwork is drawn locally with SwiftUI Canvas. [App icon source](docs/branding/focussi-icon-source.png) · [ImageGen artwork prompt](docs/branding/focussi-icon-prompt.md).

@@ -5,17 +5,17 @@ Beta 1.0 is supplied as source. Use Xcode on a Mac to build and sign your own co
 ## Choose a scheme
 
 - **focussi Personal** works with a free Apple Personal Team. It includes the timer, pixel-art island, rewards, collection, local progress, and notifications. App blocking is not included.
-- **FocusIsle** is the full Screen Time build. It requires an Apple Developer Program team, Family Controls, a shared App Group, and the monitor extension.
+- **focussi** is the full Screen Time build. It requires an Apple Developer Program team, Family Controls, a shared App Group, and the monitor extension.
 
 Personal Team provisioning expires after seven days. Rebuild and reinstall using the same bundle identifier to renew it. Do not delete the app if you want to retain local progress.
 
 ## Configure your signing settings
 
-1. Open `FocusIsle.xcodeproj` in Xcode 16 or newer.
+1. Open `focussi.xcodeproj` in Xcode 16 or newer.
 2. In **Xcode → Settings → Apple Accounts**, add your own Apple Account.
 3. Copy `Config/Signing.local.xcconfig.example` to `Config/Signing.local.xcconfig`. The local copy is ignored by Git; keep account-specific settings there.
 4. In the local copy, set `DEVELOPMENT_TEAM` to your Apple team ID and `PRODUCT_BUNDLE_IDENTIFIER` to a unique Personal app identifier. The local configuration is wired to the Personal target; configure the full app and monitor identifiers in Xcode as described below.
-5. In your chosen target's **Signing & Capabilities**, confirm **Automatically manage signing** is enabled and your own team is selected. For Personal, use target **FocussiPersonal**. For the full build, both **FocusIsle** and **FocusIsleMonitor** must use the same enrolled team.
+5. In your chosen target's **Signing & Capabilities**, confirm **Automatically manage signing** is enabled and your own team is selected. For Personal, use target **FocussiPersonal**. For the full build, both **focussi** and **focussiMonitor** must use the same enrolled team.
 
 Use your own identifiers, such as `com.example.focussi.personal` for Personal, `com.example.focussi` for the full app, and `com.example.focussi.monitor` for its extension. These are examples to replace, not identifiers registered for you. Personal and full builds use different identifiers and therefore separate app storage.
 
@@ -32,10 +32,10 @@ Start a session normally. No Screen Time permission is requested in Personal. En
 
 ## Configure the full Screen Time build
 
-1. Choose the **FocusIsle** scheme and an Apple Developer Program team.
+1. Choose the **focussi** scheme and an Apple Developer Program team.
 2. Confirm your unique app and monitor bundle identifiers and automatic signing for both targets.
 3. Enable **Family Controls** and **App Groups** for both targets. Register one shared App Group under your team and select it for both.
-4. Replace the default `group.com.focusisle.app` with that registered group in `FocusIsle/FocusIsle.entitlements`, `FocusIsleMonitor/FocusIsleMonitor.entitlements`, and `Shared/ScreenTimeConfiguration.swift`.
+4. Replace the default `group.com.focusisle.app` with that registered group in `focussi/focussi.entitlements`, `focussiMonitor/focussiMonitor.entitlements`, and `Shared/ScreenTimeConfiguration.swift`.
 5. Keep the monitor extension embedded in the full app. Select your iPhone and press **⌘R**.
 6. In focussi's Settings, allow Screen Time access and select distractions. Notification permission is separate.
 

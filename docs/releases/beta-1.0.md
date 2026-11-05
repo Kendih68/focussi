@@ -20,7 +20,7 @@ Build and sign your own copy in Xcode. Start with the [iPhone installation guide
 | Scheme | Requirements | Included blocking support |
 | --- | --- | --- |
 | **focussi Personal** | Free Apple Personal Team for direct device installation | None; no Family Controls, App Group entitlement, or monitor extension |
-| **FocusIsle** | Apple Developer Program team; Family Controls and shared App Group configured for app and monitor | Managed Settings shields and Device Activity Monitor cleanup |
+| **focussi** | Apple Developer Program team; Family Controls and shared App Group configured for app and monitor | Managed Settings shields and Device Activity Monitor cleanup |
 
 The full build's Screen Time APIs are compiled only with `SCREEN_TIME_ENABLED`. The Personal build retains notifications and all timer, reward, collection, and progress features. Family Controls distribution approval is required before distributing the full build through TestFlight or the App Store.
 

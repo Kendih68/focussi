@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C13732C8E715C9BEE4FA51C9"
-               BuildableName = "FocusIsle.app"
-               BlueprintName = "FocusIsle"
-               ReferencedContainer = "container:FocusIsle.xcodeproj">
+               BuildableName = "focussi.app"
+               BlueprintName = "focussi"
+               ReferencedContainer = "container:focussi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C13732C8E715C9BEE4FA51C9"
-            BuildableName = "FocusIsle.app"
-            BlueprintName = "FocusIsle"
-            ReferencedContainer = "container:FocusIsle.xcodeproj">
+            BuildableName = "focussi.app"
+            BlueprintName = "focussi"
+            ReferencedContainer = "container:focussi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>

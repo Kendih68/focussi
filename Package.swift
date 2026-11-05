@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "FocusIsle",
+    name: "focussi",
     platforms: [.macOS(.v13), .iOS(.v17)],
     products: [
         .library(name: "FocusCore", targets: ["FocusCore"]),
